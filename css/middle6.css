@@ -1,0 +1,74 @@
+.middle{
+    height: 560px;
+    border: black 1px solid;
+}
+.beijingtu{
+    background-color: rgba(153, 153, 153, 0.18);
+    height: 560px;
+}
+.missyang{
+    font-size: 12px;
+    background-color: rgba(153, 153, 153, 0.21);
+    height: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+.fanhuilan img {
+    height: 30px;
+    width: 374px;
+}
+.fanhuilan1 img {
+    height: 45px;
+    width: 374px;
+    position: absolute;
+    top: 620px;
+    left: 1px;
+}
+.time{
+    height: 22px;
+    width: 65px;
+    background-color: rgba(153, 153, 153, 0.22);
+    position: relative;
+    top: 16px;
+    left: 141px;
+}
+.time1{
+    height: 22px;
+    width: 72px;
+    background-color: rgba(153, 153, 153, 0.22);
+    position: relative;
+    top: -100px;
+    left: 141px;
+}
+.liaotian1 img{
+    height: 44px;
+    width: 49px;
+    position: relative;
+    top: 28px;
+    left: 13px;
+    border-radius: 10px;
+}
+.liaotian2 img{
+    height: 36px;
+    width: 122px;
+    position: relative;
+    top: -16px;
+    left: 78px;
+    border-radius: 10px;
+}
+.liaotian3 img{
+    height: 42px;
+    width: 75px;
+    position: relative;
+    top: 43px;
+    left: 215px;
+    border-radius: 10px;
+}
+.liaotian4 img{
+    height: 52px;
+    width: 56px;
+    position: relative;
+    top: -7px;
+    left: 301px;
+    border-radius: 10px;
+}

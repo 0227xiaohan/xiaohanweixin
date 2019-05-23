@@ -1,0 +1,83 @@
+.middle{
+    height: 560px;
+    border: black 1px solid;
+    overflow: scroll;
+
+}
+
+ul{
+    height: 51px;
+    border: black 1px solid;
+}
+
+li{
+    display: flex;
+}
+.middle .picture{
+    height:48px;
+    width: 60px;
+    border: white  1px   solid;
+    background-color: white;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.rabbit{
+    height:40px;
+    width: 40px;
+}
+.middle .name{
+    height:55px;
+    width: 200px;
+    flex-wrap: wrap;
+    border-bottom: solid;/*加下边框*/
+    border-color: rgba(0, 0, 0, 0.25);
+    border-width: 1px;
+
+
+}
+.middle .name0{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 楷体;
+}
+
+.middle .wenzi{
+    font-size: 10px;
+    margin-top: 7px;
+    margin-left: 5px;
+    font-family: 楷体;
+    opacity: 0.7;
+}
+.middle .time{
+    height:55px;
+    width: 100px;
+
+    border-bottom: solid;/*加下边框*/
+    border-color: rgba(0, 0, 0, 0.25);
+    border-width: 1px;
+}
+.middle .week{
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: 60px;
+    font-family: 楷体;
+    opacity: 0.7;
+}
+.foot{
+    display: flex;
+    justify-content:space-around;
+}
+.foot div .iconfont{
+    font-size: 23px;
+}
+span{
+    text-align: center;
+    font-size: 9px;
+}
+ .foot  a{
+    text-decoration: none;/*超链接无下划线*/
+}
+ .name a{
+     text-decoration: none;
+ }

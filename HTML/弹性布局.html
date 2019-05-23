@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*margin-top和margin-button相比，top级别高于button*/
+        /*弹性布局*/
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #wrap{
+            width: 1190px;
+            height: 1000px;
+            border: solid  1px    #000000;
+            margin:auto;/*水平居中*/
+            display: flex;/*浮动盒子*/
+            justify-content:space-around;/*对总体大框里还空白的地方进行,,between:无空白。around：四面垂直分布一个分布*/
+            flex-wrap:wrap;/*如果弹性盒子内的东西需要换行,wrap:盒子内的换行*/
+        }
+        #wrap .first{
+            width: 190px;
+            height: 480px;
+            border: solid  1px  red;
+        }
+        #wrap .second{
+            width: 590px;
+            height: 480px;
+            border: solid  1px  red;
+        }
+        #wrap .third{
+            width: 190px;
+            height: 480px;
+            border: solid  1px  red;
+        }
+        #wrap .fourth{
+            width: 190px;
+            height: 480px;
+            border: solid  1px  red;
+        }
+        </style>
+</head>
+        <body>
+        <div  id="wrap">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div  class="fourth"></div>
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div  class="fourth"></div>
+            <!--若使这些个块在同一水平直线，可以用浮动和弹性布局-
+            弹性盒子是根据里面的内容，自己做一些相对的分布-->
+        </div>
+        <!--
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #a{
+            width: 1190px;
+            height: 480px;
+            border: solid   1px   #000000;
+            display: flex;/*弹性盒子，使所有的到一平面*/
+            flex-wrap:wrap;
+            align-content: space-around;
+            justify-content: space-around;
+        }
+        .b{
+            width: 100px;
+            height: 480px;
+            border: solid   1px   #000000;
+        }
+        .c{
+            width: 400px;
+            height: 480px;
+            border: solid   1px   #000000;
+        }
+    </style>
+</head>
+<body>
+&lt;!&ndash;css特性：弹性布局&ndash;&gt;
+<div  id="a">
+    <div  class="b">
+        <div  class="c">
+            <div  class="img">
+                <div  class="d">
+    </div>
+</div>
+            &lt;!&ndash;属性选择器&ndash;&gt;
+            [type=password]
+</body>
+        -->
+</body>
+</html>

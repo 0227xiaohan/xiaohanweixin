@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*d单个选择器id  class tag*/
+/*.wrap{
+    height: 600px;
+    width: 1200px;
+    border: #795da3 solid  1px;
+   display: flex;!*弹性盒子*!
+    justify-content:space-around;!*空白地方做一个分布*!
+}
+.wrap  div{
+    width: 298px;
+    border: #795da3 solid  1px;
+    flex-wrap: wrap;
+ }
+.wrap .a{
+    height: 150px;
+    width: 300px;
+    border: #795da3 solid  1px;
+    flex:1;
+}
+.wrap .a:nth-child(2){
+    height: 60px;
+}*/
+/*组合选择器：优先级会变高*/
+/*.wrap .div1{
+    width: 100px;
+    height: 200px;
+    background-color: peachpuff;
+}
+
+.wrap .div{
+    width: 100px;
+    height: 10px;
+    background-color: green;
+}*/
+/*组合器分为：父子选择器 ：空格
+              相邻选择器，逗号，只包含一层
+              [  ]属性选择器
+              ：nth-child(第几个)：插色显示*/
+.wrap {
+    width: 20px;
+    height: 80px;
+    background-color: aqua;
+    float: left;
+    text-align: center;
+    line-height: 20px;/*c垂直居中*/
+    overflow: scroll;
+}
+.wrap .a{
+    height: 30px;
+border-radius: 15px;
+}
+li{
+    width: 15px;
+}
+a{
+    text-decoration: none;/*超链接无下划线*/
+}

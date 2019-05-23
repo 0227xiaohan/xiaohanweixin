@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#all{
+    height: 665px;
+    border: black 1px solid;
+}
+#all .head1{
+        height: 30px;
+        font-size: 15px;
+        background-color: rgba(153, 153, 153, 0.22);
+
+}
+.jiahao{
+    height: 30px;
+    width: 30px;
+    position: static;
+}
+.head2 .jiepin{
+    width: 120px;
+    height: 140px;
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 250px;
+}
+.head2:hover img{
+
+
+    display: block;
+
+  background-image: url("../img/截屏.png");
+}
+.head2{
+    height: 30px;
+    background-color: rgba(153, 153, 153, 0.22);
+
+}
+.foot {
+    height: 42px;
+    border: black 1px solid;
+    display: flex;
+}
+.foot .tubiao{
+    height:40px ;
+    width: 40px;
+}
